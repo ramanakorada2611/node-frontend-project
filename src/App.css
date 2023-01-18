@@ -120,7 +120,7 @@ header .nav-btn{
   padding-top: 60px;
   width: 350px;
   height: 172px;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHgNMfH4fdso-aReG6XfgqbyeT8BV9wYy1XQ&usqp=CAU");
+  background-image: url("https://th.bing.com/th/id/OIP.w3neP0NpSi3axXMBjWau0wHaD_?w=329&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7");
   background-size: cover;
  
 }
@@ -271,7 +271,7 @@ header .nav-btn{
   border: 1px solid black;
   float: right;
   position: relative;
-  bottom: 64.8rem;
+  bottom: 52rem;
   left:350px;
   text-align: center;
   padding: 350px 0;
@@ -289,7 +289,7 @@ header .nav-btn{
 }
 .column-card1-container{
   position: absolute;
-  top: 120rem;
+  top: 112.4rem;
   left:865px;
 }
 .Extra-image{
@@ -340,15 +340,15 @@ header .nav-btn{
   font-weight: bold;
 }
 .center-image-container{
-  height: 350px;
-  width:750px;
-  background-repeat: no-repeat;
+  height: 450px;
+  width:750px; 
+   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("https://media.istockphoto.com/id/1342007894/photo/morning-fog-over-a-beautiful-lake-surrounded-by-pine-forest-stock-photo.jpg?b=1&s=170667a&w=0&k=20&c=bpvbDnZj5rBbu-2LPdZs_EIHGWgPAb587JdsgTP1zro=");
+  background-image: url("https://media.istockphoto.com/id/1342007894/photo/morning-fog-over-a-beautiful-lake-surrounded-by-pine-forest-stock-photo.jpg?b=1&s=170667a&w=0&k=20&c=bpvbDnZj5rBbu-2LPdZs_EIHGWgPAb587JdsgTP1zro="); 
   margin-left: 60px;
   margin-top: 80px;
- 
 }
+
 .center-image4{
   position: relative;
   top: 160px;
@@ -363,15 +363,19 @@ header .nav-btn{
   text-align: center;
 }
 .extra-flex-container{
- display: grid;
- grid-template-columns: auto auto auto;
- margin-left: 25px;
+  
+  width: 300px;
+  height: 200px;
+  background-color: red;
 }
+
 .flex-item{
-  width: 350px;
+  display: flex;
+  flex-direction: row;
+  /* width: 350px;
   height: 300px;
   margin-left: 30px;
-  background-color: white;
+  background-color: white; */
 }
 .red-line4{
   height: 3px;
@@ -487,7 +491,14 @@ header .nav-btn{
     background-color: white;
     border: none;
   }
-  
+  .backend-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .column-card-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .header-nav{
@@ -513,4 +524,33 @@ header .nav-btn{
 }
 .navdata1{
   margin-right: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+.backend-container{
+  display: flex;
+}
+.content-container{
+  margin-left: 20px;
+}
+.style-content{
+  width: 350px;
+  height: 300px;
+}
+.number-single-image{
+  color: rgb(132, 129, 129);
+  float: right;
+}
+
+.avatar1{
+  width: 500px;
+  height: 300px;
 }
